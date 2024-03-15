@@ -1,0 +1,22 @@
+package com.sims.entitynew;
+
+import com.sims.entitynew.Employees;
+import com.sims.entitynew.Importdetail;
+import com.sims.entitynew.Supplier;
+import java.util.Date;
+import javax.annotation.processing.Generated;
+import javax.persistence.metamodel.CollectionAttribute;
+import javax.persistence.metamodel.SingularAttribute;
+import javax.persistence.metamodel.StaticMetamodel;
+
+@Generated(value="org.eclipse.persistence.internal.jpa.modelgen.CanonicalModelProcessor", date="2023-10-03T11:00:44", comments="EclipseLink-2.7.12.v20230209-rNA")
+@StaticMetamodel(Importitems.class)
+public class Importitems_ { 
+
+    public static volatile SingularAttribute<Importitems, Integer> importid;
+    public static volatile SingularAttribute<Importitems, Supplier> supplierid;
+    public static volatile CollectionAttribute<Importitems, Importdetail> importdetailCollection;
+    public static volatile SingularAttribute<Importitems, Date> importdate;
+    public static volatile SingularAttribute<Importitems, Employees> employeeid;
+
+}

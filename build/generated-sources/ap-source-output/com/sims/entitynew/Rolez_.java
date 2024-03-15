@@ -1,0 +1,17 @@
+package com.sims.entitynew;
+
+import com.sims.entitynew.Employees;
+import javax.annotation.processing.Generated;
+import javax.persistence.metamodel.CollectionAttribute;
+import javax.persistence.metamodel.SingularAttribute;
+import javax.persistence.metamodel.StaticMetamodel;
+
+@Generated(value="org.eclipse.persistence.internal.jpa.modelgen.CanonicalModelProcessor", date="2023-10-03T11:00:45", comments="EclipseLink-2.7.12.v20230209-rNA")
+@StaticMetamodel(Rolez.class)
+public class Rolez_ { 
+
+    public static volatile CollectionAttribute<Rolez, Employees> employeesCollection;
+    public static volatile SingularAttribute<Rolez, Integer> roleid;
+    public static volatile SingularAttribute<Rolez, String> rolename;
+
+}
